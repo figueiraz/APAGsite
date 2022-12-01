@@ -1,0 +1,354 @@
+/* Resetando o A */
+a {
+  text-decoration: none;
+  text-transform: none;
+  margin: 0px;
+  justify-content: center;
+}
+/*__SEÇÃO:HEADER__*/
+header {
+  /* posicionamento */
+  height: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* estilo */
+  background-color: #f7f7f7;
+  box-shadow: 2px 2px 5px rgb(125, 125, 125, 0.5);
+}
+/* titulo */
+h1 {
+  /* posicionamento */
+  margin: auto 100px;
+  /* estilo */
+  font-size: 24px;
+}
+/* lista da barra de navegação */
+.lista {
+  /* posicionamento */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 100px;
+  gap: 50px;
+}
+.lista a {
+  font-weight: 400;
+  font-size: 24px;
+  color: #121212;
+  list-style: none;
+}
+/*__SEÇÃO:PARTE-PRINCiPAL__*/
+body {
+  /* posicionamneto */
+  margin: 0px auto;
+  /* estilo */
+  background-image: linear-gradient(to bottom, #16da3b, #007c02);
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* formatação do container que engloba todo o conteúdo */
+.conteudo {
+  /* posicionamento */
+  max-width: 1000px;
+  margin: 12px auto;
+  /* estilo */
+  background-image: linear-gradient(150deg, #f7f7f7, #eafce9);
+  padding: 10px 90px;
+  box-shadow: 2px 2px 5px rgb(125, 125, 125, 0.5);
+  border-radius: 4px;
+}
+/*__SUB-SEÇÃO:QUEM_SOMOS__*/
+/* container */
+.quem {
+  /* posicionamento */
+  display: flex;
+  flex-wrap: wrap;
+  place-content: space-around;
+}
+/* imagem do Quem Somos */
+.quem-img {
+  /* posicionamento */
+  max-height: 600px;
+  object-fit: cover;
+  /* estilo */
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgb(125, 125, 125, 0.5);
+}
+/* Elemento P que está nos dois textos */
+.quem p {
+  /* estilo */
+  font-family: Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+}
+/* definir tamanho e posicionamento do segundo texto */
+.texto2 {
+  margin-top: 60px;
+  max-width: 400px;
+}
+/*__SUB-SEÇÃO:BLOG__*/
+/* container */
+.blog {
+  /* posicionamento */
+  margin: 10px;
+  padding: 20px;
+  /* estilo */
+  border-top: 1px solid #121212;
+  border-bottom: 1px solid #121212;
+}
+/* texto da sub-seção */
+.blog h2 {
+  /* posicionamento */
+  font-weight: 400;
+  margin: 10px;
+  text-align: center;
+}
+/* cada materia de forma conjunta */
+.artigos {
+  /* poscionamento */
+  display: flex;
+  flex-wrap: wrap;
+  place-content: space-around;
+}
+/* cada materia de forma individual */
+.materia {
+  /* posicionamento */
+  max-width: 300px;
+  max-height: 450px;
+  flex-grow: 2;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  /* estilo */
+  background-image: linear-gradient(145deg, #16da3b 50%, #00c933);
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgb(125, 125, 125, 0.5);
+  /* efeito */
+  transition: all 0.3s ease-in-out;
+}
+/* efeito do hover */
+.materia:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+  box-shadow: 4px 4px 10px rgb(125, 125, 125, 1);
+}
+/* titulo da materia */
+h3 {
+  /* posicionamento */
+  margin: 10px;
+  /* estilo */
+  color: #121212;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 26px;
+  text-align: center;
+}
+/* configurações da imagem na seção blog */
+.materia img {
+  width: 300px;
+  height: 200px;
+  object-fit: fill;
+  border-radius: 4px 4px 0px 0px;
+}
+/*__SUB-SEÇÃO:DOAÇÃO__*/
+/* container */
+.doacao {
+  /* posicionamento */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+/* titulo da sub-seção */
+.titulo-apoie {
+  /* posicionamento */
+  width: 1000px;
+  /* estilo */
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+/* container com os dados */
+.dados {
+  /* posicionamento */
+  width: 450px;
+  height: 370px;
+  margin: 60px auto;
+  padding: 10px;
+  /* estilo */
+  border-radius: 4px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 5px rgb(125, 125, 125, 0.5);
+}
+/* titulo da mini-seção dados */
+.dados h3 {
+  /* posicionamento */
+  margin-top: 20px;
+  padding: 0px;
+  /* estilo */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 29px;
+}
+/* formulário */
+form {
+  /* posicionamento */
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin: 16px auto;
+}
+/* Forma de pagamento */
+.pagamento {
+  /* posicionamento */
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+/* titulo da area de input */
+.titulo-campo {
+  /* estilo */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 12px;
+  align-items: center;
+}
+input {
+  max-width: 300px;
+}
+/* container com o valor da doação */
+.valor {
+  /* posicionamento */
+  width: 450px;
+  height: 370px;
+  margin: 60px auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  place-content: space-around;
+  background-image: url(/img/img-quemsomos.jpg);
+  object-fit: cover;
+  /* estilo */
+  border-radius: 4px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 5px rgb(125, 125, 125, 0.5);
+}
+/* texto do valor a ser doado */
+.titulo-valor h2 {
+  /* posicionamento */
+  width: 100%;
+  height: 50px;
+  margin: 24px;
+  /* estilo */
+  font-family: Arial, Helvetica, sans-serif, Helvetica, sans-serif;
+  font-weight: 100;
+  text-align: center;
+  font-size: 36px;
+  line-height: 44px;
+}
+select {
+  width: 100px;
+  height: 50px;
+  place-self: center;
+  font-size: 18px;
+}
+/* formatação do botão da doação */
+.button {
+  /* posicionamento */
+  width: 158px;
+  height: 50px;
+  /* estilo */
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  background-color: #16da3b;
+  color: #121212;
+  border: 1px solid #121212;
+}
+/* efeito de clique no botão
+fonte:https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_animate3 */
+.button:active {
+  background-color: #007c02;
+  transform: translateY(4px);
+}
+/*__SEÇÃO:FOOTER__*/
+/* container do footer */
+footer {
+  /* posicionamento */
+  padding: 12px;
+  /* estilo */
+  background-image: linear-gradient(15deg, #f7f7f7, #e2e2e2);
+}
+/* titulo do footer */
+footer h2 {
+  /* posicionamento */
+  margin: 10px auto;
+  /* estilo */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+}
+/* sub-titulo do footer */
+footer h3 {
+  /* posicionameto */
+  text-align: center;
+  /* estilo */
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* cada id de forma conjunta */
+.criadores {
+  /* posicionamento */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+/* cada id de forma individual */
+.id {
+  /* posicionamento */
+  width: 340px;
+  height: 100px;
+  margin: 20px 0px;
+  padding: 12px;
+  /* estilo */
+  background-image: linear-gradient(125deg, #00b428, #007c02);
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgb(125, 125, 125, 0.5);
+  /* efeito */
+  transition: 0.3s;
+}
+/* efeito de hover nos ids */
+.id:hover {
+  transform: scale(1.05);
+  scale: (1.5s);
+}
+/* texto de baixo do id */
+.id p {
+  padding: 10px;
+  border-top: 1px solid black;
+}
+/* texto de cima do id */
+.id h4 {
+  /* posicionamento */
+  margin: 20px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* estilo */
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}

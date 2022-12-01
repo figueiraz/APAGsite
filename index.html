@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="stylesheet" href="./stylesheet.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APAG - Associção de Proteção Animal dos Guri</title>
+</head>
+
+<body>
+  <header>
+    <h1>APAG</h1>
+    <ul class="lista">
+      <a href="#1">
+        <li> Quem somos </li>
+      </a>
+      <a href="#2">
+        <li> Matérias </li>
+      </a>
+      <a href="#3">
+        <li> Doações </li>
+      </a>
+    </ul>
+  </header>
+  <div class="conteudo">
+    <!-- quem somos -->
+    <section id="1" class="quem">
+      <p class="texto1">APAG - Associação Protetora Animal dos Guris <br>
+        Unidos para proteger nossa fauna!
+      </p>
+      <img class="quem-img" src="./img/apaglogo.png" alt="Logo da APAG">
+      <p class="texto2"> Fundada em 2022 na cidade de Porto Alegre, a APAG (Associação Protetora Animal dos Guris) surgiu com o objetivo de conscientizar a população brasileira acerca do risco de extinção de diversas espécies de animais presentes em nossa fauna brasileira.
+        Nossa missão é garantir a preservação ambiental por meio de palestras e ações sociais.
+      </p>
+    </section>
+    <!--artigo de cada animal -->
+    <section id="2" class="blog">
+      <h2 class="titulo-blog">Confira algumas das espécies com maior risco de extinção no território sul-americano</h2>
+
+      <div class="artigos">
+        <a href="./lobo.html">
+          <article class="materia">
+            <img src="./img/lobo-guara.jpg">
+            <h3>Lobo-Guará</h3>
+          </article>
+        </a>
+        <a href="./araraazul.html">
+          <article class="materia"> <img src="./img/araraazul.jpg">
+            <h3>Arara Azul de Lear</h3>
+          </article>
+        </a>
+        <a href="./gaviao.html">
+          <article class="materia"> <img src="./img/gaviao.jpg">
+            <h3>Gavião-Real</h3>
+          </article>
+        </a>
+        <a href="./micoleao.html">
+          <article class="materia"> <img src="./img/mico.jpg">
+            <h3>Mico Leão Dourado</h3>
+          </article>
+        </a>
+        <a href="./onca.html">
+          <article class="materia"> <img src="./img/onca.jpg">
+            <h3>Onça-Pintada</h3>
+          </article>
+        </a>
+        <a href="./ararajuba.html">
+          <article class="materia">
+            <img src="./img/ararajuba.jpg">
+            <h3>Ararajuba</h3>
+          </article>
+        </a>
+
+
+      </div>
+    </section>
+    <!-- doação -->
+    <section id="3" class="doacao">
+      <h2 class="titulo-apoie">Apoie nossa Causa</h2>
+      <div class="dados">
+        <h3>Ajude nos a continuar </h3>
+        <form action="get">
+          <!-- <legend> Nome Completo </legend> -->
+          <label class="titulo-campo" for="cNome">Nome Completo</label><br>
+          <input type="text" size="40" required> <br>
+
+          <!-- <legend> CPF </legend>  -->
+          <label class="titulo-campo" for="cpf"> CPF</label><br>
+          <input type="text" size="14" required> <br>
+
+          <!-- telefone -->
+          <label class="titulo-campo" for="telefone"> Telefone </label> <br>
+          <input type="text" size="20" required> <br>
+
+          <!-- <h4>Forma de Doação</h4> -->
+          <div class="pagamento">
+
+            <div>
+              <input type="radio" name="tipo" id="pix">
+              <label for="pix"> Pix </label>
+            </div>
+            <div>
+              <input type="radio" name="tipo" id="dinheiro">
+              <label for="dinheiro"> Dinheiro </label>
+            </div>
+            <div>
+              <input type="radio" name="tipo" id="cartao">
+              <label for="cartao">Cartão </label>
+            </div>
+          </div>
+
+        </form>
+
+      </div>
+
+
+      <form class="valor" action="get">
+        <h2 class="titulo-valor">Valor a ser doado:</h2>
+        <select name="value">
+          <option value="cinco">R$5,00</option>
+          <option value="quinze">R$15,00</option>
+          <option value="vinte-cinco">R$25,00</option>
+          <option value="cinquenta">R$50,00</option>
+        </select>
+        <input class="button" type="reset" value="Cancelar" />
+        <input class="button" type="submit" value="Enviar" />
+      </form>
+
+
+    </section>
+  </div>
+  <footer>
+    <h3>Criadores do site</h3>
+    <div class="criadores">
+      <div class="id">
+        <h4>Pedro R. Belmonte</h4>
+        <p> Email:pedrorbelmonte@outlook.com</p>
+      </div>
+
+      <div class="id">
+        <h4>Daniel Alves</h4>
+        <p>Email: daniel.alves11@hotmail.com</p>
+      </div>
+
+      <div class="id">
+        <h4>Bryan Reichert</h4>
+        <p>Email: bryan.reichert@gmail.com</p>
+      </div>
+
+      <div class="id">
+        <h4>Gabriel Figueira</h4>
+        <p>Email: gabriel.figueira8899@gmail.com</p>
+      </div>
+    </div>
+
+  </footer>
+
+
+</body>
+
+</html>
